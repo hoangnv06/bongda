@@ -1,0 +1,64 @@
+.header {
+  background-color: rgb(121, 196, 9);
+  color: white;
+  width: 100%;
+  align-items: center;
+}
+.div {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 10px 0;
+  width: 100%;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+.layout {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.tin-nho h3 {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.tin-lon h2 {
+  font-size: 22px;
+  padding: 12px;
+}
+
+.chu {
+  max-width: 720px;
+  margin: 30px auto;
+  background: white;
+  padding: 24px;
+  line-height: 1.5;
+}
+
+.anh img {
+  width: 100%;
+  display: block;
+}
+
+.anh small {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-top: 6px;
+}
